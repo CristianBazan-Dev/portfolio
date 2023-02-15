@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cristian Bazán - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="body">
+
+    <header class="header">
+        <h2 class="header-title">Cristian</h2>
+        <nav class="nav-bar">
+            <ul class="ul-nav">
+                <li class="li-nav">Skills</li>
+                <li class="li-nav">About me</li>
+                 <li class="li-nav">Projects</li>
+                <li class="li-nav">Contact</li>
+                </ul>    
+        </nav>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+
+    <div class="titles">
+      
+         <div class="presentation">
+            
+            <div class="title">
+                <h1>Passionate for the creation of creative solutions</h1>
+            </div>
+           
+            <div class="subtitle">
+                <h2>For that reason, I want to help you to translate your brand personality through web development</h2>
+            </div>
+
+            <div class="button-container">
+                <button id="resumeButton" class="resume-button">Download resume</button>
+            </div>
+         </div>
+
+
+         <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+         <svg version="1.1" id="visual" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              viewBox="0 0 900 600" style="enable-background:new 0 0 900 600;" xml:space="preserve">
+         <style type="text/css">
+             .wave1{fill:#F7CACA;}
+             .wave2{fill:#796479;}
+             .wave3{fill:#001122;}
+         </style>
+         <path class="wave1" d="M0,389l21.5,6.7c21.5,6.6,64.5,20,107.3,19.1c42.9-0.8,85.5-15.8,128.4-16.1c42.8-0.4,85.8,14,128.6,29.5
+             c42.9,15.5,85.5,32.1,128.4,30.5c42.8-1.7,85.8-21.7,128.6-25c42.9-3.4,85.5,10,128.4,11.5c42.8,1.5,85.8-8.9,107.3-14L900,426v175
+             h-21.5c-21.5,0-64.5,0-107.3,0c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-128.6,0c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-128.6,0
+             c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-107.3,0H0V389z"/>
+         <path class="wave2" d="M0,464l21.5,2.8c21.5,2.9,64.5,8.5,107.3,8.5c42.9,0,85.5-5.6,128.4-8.8c42.8-3.2,85.8-3.8,128.6-7.5
+             c42.9-3.7,85.5-10.3,128.4-3.3c42.8,7,85.8,27.6,128.6,26.8c42.9-0.8,85.5-23.2,128.4-31.8c42.8-8.7,85.8-3.7,107.3-1.2L900,452v149
+             h-21.5c-21.5,0-64.5,0-107.3,0c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-128.6,0c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-128.6,0
+             c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-107.3,0H0V464z"/>
+         <image style="overflow:visible;" class="vector-img" xlink:href="src\img\profile.png"  transform="matrix(0.24 0 0 0.24 534.24 234.7946)">
+         </image>
+         <path class="wave3" d="M0,521l21.5,1.3c21.5,1.4,64.5,4,107.3,5.9c42.9,1.8,85.5,2.8,128.4,5.6c42.8,2.9,85.8,7.5,128.6,7.2
+             c42.9-0.3,85.5-5.7,128.4-11.7c42.8-6,85.8-12.6,128.6-17.3c42.9-4.7,85.5-7.3,128.4-6.2c42.8,1.2,85.8,6.2,107.3,8.7L900,517v84
+             h-21.5c-21.5,0-64.5,0-107.3,0c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-128.6,0c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-128.6,0
+             c-42.9,0-85.5,0-128.4,0c-42.8,0-85.8,0-107.3,0H0V521z"/>
+         </svg>
+
+    </div>
+    
+
+    
+    
+
+    <div class="modal-skills-container" id="modal-skills-container">
+        <div class="close-icon">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+        </div>
+
+        <div class="modal-skills" id="modal-skills">
+            <img class="icon-selected">
+            <h3 class="icon-title"></h3>
+            <p class="icon-definition"></p>
+        </div>
+
+        <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 967.9 661.8" style="enable-background:new 0 0 967.9 661.8;" xml:space="preserve" id="svgPJ">
+        <style type="text/css">
+            .st0{fill:#C68F8F;}
+            .st1{fill:#2F2E41;}
+            .st2{fill:#3F3D56;}
+            .st3{fill:#E6E6E6;}
+            .st4{fill:#CACACA;}
+            .st5{fill:#6C63FF;}
+            .st6{fill:#FFFFFF;}
+            .st7{fill:#D1D3D4;}
+            .st8{fill:none;stroke:#1D1D1B;stroke-miterlimit:10;}
+            .st9{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+        </style>
+        <path class="st0" d="M679.9,274c0.7,3.8,4.5,6.4,8.3,5.6c0.4-0.1,0.8-0.2,1.2-0.3l29.3,34.1l3.7-12.6l-29-31.2
+            c-1.7-3.6-5.9-5.1-9.5-3.5C680.9,267.6,679.2,270.8,679.9,274z"/>
+        <polygon class="st0" points="797.9,651.1 788.2,651.1 783.6,613.8 797.9,613.8 "/>
+        <path class="st1" d="M797.6,648l-10.3-4.2l-0.3-0.1l-5.7,4.3c-6.7,0-12.2,5.4-12.2,12.2v0.4h31.2V648L797.6,648L797.6,648z"/>
+        <polygon class="st0" points="867,651.1 857.3,651.1 852.7,613.8 867,613.8 "/>
+        <path class="st1" d="M866.7,648l-10.3-4.2l-0.3-0.1l-5.7,4.3c-6.7,0-12.2,5.4-12.2,12.2v0.4h31.2V648L866.7,648L866.7,648z"/>
+        <path class="st1" d="M844.1,428c0,0,12.2,12.6,12.2,23s-3,24.7,0,27.8s6.8,6.9,2.3,11.5s-6.8,6.8-3.8,9.9s1.5,56.2,1.5,56.2
+            l15.9,71.4h-20.1l-25.5-71.4l-6.8-59.2l-22.1,57l2.4,74.3l-21-0.6l-8.7-79c0,0,12.9-75.1,10.6-77.1s0-5.8,0-5.8l6.1-28.8L844.1,428z
+            "/>
+        <path class="st2" d="M820.3,338.4c0,0,4.1-16.3-14.9-20.9c-19-4.6-73.4-10.7-73.4-10.7l-27.5-29.2l-9.3,13.5l30.8,38.3l73,15
+            L820.3,338.4z"/>
+        <path class="st3" d="M699.7,290.1c0.9-1.1,1.5-2.3,2-3.7l3.9-9.7h-1c-5.6-1-10.9,2.6-11.9,8.2c-0.1,0.4-0.1,0.8-0.1,1.2
+            c-0.1,1.2,0.1,2.5,0.6,3.6c0.6,1.1,1.6,1.9,2.9,2.1C697.4,291.8,698.8,291.2,699.7,290.1z"/>
+        <path class="st3" d="M783.3,441l-2.3,16.5c0,0,4.6,4.9,6.8,4.3s10.6-4.2,10.6-4.2s9.9,5.4,15.2,6s33.4-3.1,34.2-4.9s9.6-9,9.6-9
+            l-3.5-21L783.3,441z"/>
+        <path class="st2" d="M857.3,383.2c0,0-1.9,15.9-0.4,17.4s-1.5,10.7-4.6,16.8s2.3,6.8,2.3,11.4s2.3,21.3,2.3,21.3s-23.5,1.5-27.3-2.3
+            s-9.9-0.8-18.2,7.6s-26.5,1.5-30.3-2.3s3-17.5,5.2-20.1s-2.2,0.4-4.5-8s2.2-7.6,6-11.4s0-10.6-3-17.5s-0.8-57.7-0.8-69.9
+            c0-12.2,16.7-13.7,16.7-13.7l6.6-8.3l4.9-6.1l9.5-0.4h0.3l9.2-0.4l4.5,5.2l9.9,11.5l11.4,2.3c9.1,3,6.8,22,6.8,22L857.3,383.2z"/>
+        <path class="st0" d="M821.7,243.2c11.1,0,20,14.4,20,25.4c0,0.1,0,0.1,0,0.2c0,11.1-8.9,25.6-20,25.6s-20-11.5-20-25.6
+            S810.6,243.2,821.7,243.2z"/>
+        <path class="st3" d="M835.6,302.6l-0.1,0.1c-1.6,1-3.5,1.5-5.3,1.4c-2.5,0.2-4.9-0.6-6.8-2.1c-1-0.9-5,1-7.5,2.1
+            c-2.7,1.1-5.8,1.2-8.5,0.1l4.9-6.1l8-1.8h2l9,1L835.6,302.6z"/>
+        <path class="st4" d="M961.3,659.9l-271.8,0.3c-0.7,0-1.2-0.5-1.2-1.2s0.5-1.2,1.2-1.2l0,0l271.8-0.3c0.7,0,1.2,0.5,1.2,1.2
+            C962.4,659.3,961.9,659.9,961.3,659.9z"/>
+        <polygon class="st2" points="620.8,168.4 618.8,168.4 618.8,25.4 697.4,25.4 697.4,27.4 620.8,27.4 "/>
+        <path class="st5" d="M758.6,12.7h-53c-7.2,0-13,5.8-13,13s5.8,13,13,13h53c7.2,0,13-5.8,13-13S765.8,12.7,758.6,12.7z"/>
+        <circle class="st5" cx="618.8" cy="180.3" r="11.9"/>
+        <path class="st3" d="M936.4,374.3c-5-3.4-11.1-4.6-17-5.1c-6.7-0.4-13.5-0.4-20.3,0c-7,0.3-14,0.8-21,1.5s-13.9,1.7-20.8,2.9
+            c-6.2,1-12.3,2.3-18.3,4c-5.7,1.6-11.1,4.2-15.9,7.7c-4.2,3.2-7.4,7.4-9.3,12.3c-1.9,4.6-2.2,9.7-0.9,14.5c0.7,2.3,1.8,4.5,3.4,6.3
+            c1.8,2,4,3.7,6.3,5c5,2.8,10.6,4.5,15.1,8.2c1.2,0.9,2.3,2,3.2,3.2c0.6,0.9,1.5,1.6,2.6,2c2,0.7,4.2,0.1,5.7-1.5
+            c0.9-1.2,1.6-2.6,2.2-4l2.4-4.6c0.2-0.4,0.4-0.8,0.6-1.1c0.2-0.2-0.1,0-0.1-0.1c0,0,0.1,0,0.1-0.1c0.2-0.1,0.4-0.2,0.6-0.2
+            c2.2-0.8,4.4-1.6,6.6-2.4c8.1-2.9,16.4-5.6,24.8-7.7c4.3-1.2,8.7-2.1,13.1-2.7c5.7-0.8,11.5-0.7,17.3-1.3c6.2-0.6,12.6-1.9,17.9-5.3
+            c4.4-2.7,7.8-6.7,9.6-11.5c0.8-2.3,1.1-4.7,0.8-7.1C944.4,381.9,940.9,377.3,936.4,374.3z"/>
+        <path class="st6" d="M926.2,377.3c-4.5-3.1-10-4.2-15.4-4.6c-6.1-0.3-12.2-0.3-18.3,0c-6.3,0.3-12.7,0.7-19,1.4
+            c-6.3,0.7-12.6,1.5-18.8,2.6c-5.6,0.9-11.1,2.1-16.6,3.6c-5.2,1.4-10,3.8-14.3,6.9c-3.8,2.9-6.7,6.7-8.4,11.1
+            c-1.7,4.2-2,8.7-0.8,13.1c0.6,2.1,1.7,4.1,3.1,5.7c1.6,1.8,3.6,3.4,5.7,4.5c4.5,2.6,9.6,4.1,13.6,7.4c1.1,0.9,2,1.8,2.9,2.9
+            c0.6,0.8,1.4,1.5,2.3,1.8c1.8,0.6,3.8,0.1,5.1-1.3c0.8-1.1,1.5-2.3,2-3.6l2.1-4.1c0.1-0.4,0.3-0.7,0.5-1c0.2-0.2-0.1,0-0.1,0h0.1
+            c0.2-0.1,0.4-0.2,0.6-0.2c2-0.8,4-1.5,6-2.2c7.4-2.6,14.8-5,22.4-7c3.9-1,7.8-1.9,11.8-2.5c5.2-0.7,10.4-0.7,15.6-1.2
+            c5.6-0.5,11.4-1.7,16.1-4.7c4-2.4,7-6.1,8.7-10.4c0.7-2.1,1-4.3,0.7-6.4C933.4,384.2,930.2,380.1,926.2,377.3z"/>
+        <path class="st3" d="M916.8,382.9l-73.6,13.6c-0.9,0.2-1.7-0.4-1.9-1.3s0.4-1.7,1.3-1.9l0,0l0,0l73.6-13.6c0.9-0.2,1.7,0.4,1.9,1.3
+            C918.2,381.9,917.6,382.7,916.8,382.9L916.8,382.9z"/>
+        <path class="st3" d="M918.6,392.7L845,406.3c-0.9,0.2-1.7-0.4-1.9-1.3s0.4-1.7,1.3-1.9l0,0l0,0l73.6-13.6c0.9-0.2,1.7,0.4,1.9,1.3
+            C920,391.7,919.4,392.5,918.6,392.7L918.6,392.7L918.6,392.7z"/>
+        <path class="st3" d="M855.4,414.5l-8.6,1.6c-0.9,0.2-1.7-0.4-1.9-1.3s0.4-1.7,1.3-1.9l8.6-1.6c0.9-0.2,1.7,0.4,1.9,1.3
+            C856.8,413.5,856.2,414.4,855.4,414.5z"/>
+        <ellipse transform="matrix(0.9834 -0.1814 0.1814 0.9834 -67.315 161.2558)" class="st7" cx="847.9" cy="448.6" rx="6.9" ry="6.9"/>
+        <polygon class="st2" points="221.5,503.8 222.8,503.8 222.8,559.2 127.7,559.2 127.7,557.8 221.5,557.8 "/>
+        <path class="st5" d="M87.5,568.4h34.9c4.7,0,8.6-4.2,8.6-9.4c0-5.2-3.8-9.4-8.6-9.4H87.5c-4.7,0-8.6,4.2-8.6,9.4
+            C78.9,564.2,82.7,568.4,87.5,568.4L87.5,568.4z"/>
+        <ellipse class="st5" cx="223.1" cy="499.4" rx="7.8" ry="8.6"/>
+        <path class="st0" d="M860,452.2c3.4-2,4.5-6.3,2.5-9.7c-0.2-0.4-0.5-0.7-0.7-1l22.3-39l-13.1,0.7L851.3,441
+            c-2.8,2.8-2.9,7.3-0.1,10.1C853.5,453.4,857.1,453.9,860,452.2L860,452.2z"/>
+        <path class="st2" d="M834.8,315.6c0,0,23.6-7.6,29.7,10.6s26.5,67.6,26.5,67.6l-21.9,44.8l-9.9-10.6l10.6-31.1l-30.4-45.6
+            L834.8,315.6z"/>
+        <path class="st3" d="M869.8,434c-0.7-1.2-1.6-2.3-2.7-3.2l-7.5-7.3l-0.4,0.9c-3,4.8-1.6,11.1,3.2,14.1c0.3,0.2,0.7,0.4,1,0.6
+            c1.1,0.6,2.4,0.8,3.6,0.7c1.3-0.1,2.4-0.8,3-1.9C870.6,436.8,870.5,435.3,869.8,434z"/>
+        <polygon class="st2" points="535,568.4 533,568.4 533,645.4 600.7,645.4 600.7,643.4 535,643.4 "/>
+        <path class="st5" d="M674.8,645.1c0-7.2-5.8-13-13-13h-53c-7.2,0-13,5.8-13,13s5.8,13,13,13h53C669,658.1,674.8,652.2,674.8,645.1z"
+            />
+        <circle class="st5" cx="532.6" cy="562.2" r="11.9"/>
+        <path d="M827.6,275.3c1.9,0,5.1-0.2,6.9-2.2c0.8-0.9,0.8-1.8,2.5-4.2c0.9-1.4,1.9-2.9,2.4-2.7c0.5,0.2,0.3,2-0.5,5.9
+            c-2,9.5-3,14.3-6.6,17.7c-0.9,0.9-3.5,3.3-7.5,4.2c-8.9,2.1-16.4-5.3-17.4-6.3s-7-6.9-5.3-9.9C803.4,275.4,809.5,275.8,827.6,275.3z
+            "/>
+        <rect x="802.6" y="263.5" class="st8" width="11" height="3.8"/>
+        <rect x="821.1" y="263.5" class="st8" width="11" height="3.8"/>
+        <line class="st8" x1="832.4" y1="265.4" x2="839.5" y2="260.7"/>
+        <line class="st8" x1="813.6" y1="265.4" x2="820.7" y2="265.4"/>
+        <path class="st9" d="M813.9,282.8c0.5,2,2.1,3.3,4,3.3c2.1,0,4.1-1.8,4.2-4.2"/>
+        </svg>
+
+        
+    </div>
+    
+    <section>
+
+        <div class="container reveal">
+             
+            <div class="about-title-container">
+                <h2> 
+                    Skills
+                </h2>
+            </div>
+            <br>
+
+           
+          
+
+            <div class="icons-container">
+
+               
+                <div class="front-end-icons">
+                    <img src="src/img/html.png" alt="html" id="html" name="html">
+                    <img src="src\img\css.png" alt="css" id="css">
+                    <img src="src\img\js.png" alt="js" id="js">
+                    <img src="src\img\python.png" alt="python" id="python">
+                </div>
+
+                <div class="frameworks-icons">
+                    <img src="src\img\react.png" alt="react" id="react">
+                    <img src="src\img\electron.png" alt="electron" id="electron">
+                </div>
+
+                <div class="style-frameworks-icons">
+                    <img src="src\img\bootstrap.png" alt="bootstrap" id="boots">
+                    <img src="src\img\tailwind.png" alt="tailwind" id="tail">
+                </div>
+
+                <div class="back-end-icons">
+                    <img src="src\img\node.png" alt="node" id="node">
+                    <img src="src\img\flask.png" alt="flask" id="flask">
+                </div>
+
+                <div class="database-icons">
+                    <img src="src\img\mongo.png" alt="mongo" id="mongo">
+                    <img src="src\img\sqlite.png" alt="sqlite" id="sqlite">
+                </div>
+
+                <div class="design-icons">
+                    <img src="src\img\ps.png" alt="ps" id="ps">
+                    <img src="src\img\ai.png" alt="ai" id="ai">
+                    <img src="src\img\figma.png" alt="figma" id="figma">
+                    <img src="src\img\blender.png" alt="blender" id="blender">
+                </div>
+
+                <div class="others-icons">
+                    <img src="src\img\fl.png" alt="fl" id="fl">
+                    <img src="src\img\sony.png" alt="sony" id="sony">
+                </div>
+
+                <div class="repository-icons">
+                    <img src="src\img\git.png" alt="git" id="git">
+                    <img src="src\img\github.png" alt="github" id="github">
+                </div>
+                
+            </div>
+              
+             
+                
+                
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+    <section>
+        <div class="container reveal">
+            
+            <h2>
+                Projects 
+            </h2>
+
+           <div class="projects-container">
+            
+                    <!-- Project 1 -->
+                    <div class="project">
+                            <div class="front">
+                                <img src="src/img/Projects/card-bg.jpg" alt="" class="thumbnail" alt="La esquina Glupis">
+
+                                <h3 class="name">La Esquina Glupis</h3>
+
+                                <p class="app-description">Desktop app</p>
+
+                                <div class="stats">
+
+                                
+
+                                    <div class="streamers">
+                                        
+                                        <img src="src/img/html.png" alt="html" id="html">
+                                        <img src="src/img/js.png" alt="js" id="js">
+                                        <img src="src/img/bootstrap.png" alt="boots" id="boots">
+                                        <img src="src/img/electron.png" alt="electron" id="electron">
+                                        <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="back">
+
+                                <div class="streaming-info">
+                                    <p class="game-stat">
+                                        An app dedicated to the storage of an inventory in a database. 
+                                        <p class="secondary">It helps to organice any food-commerce and has an auto-save function to facilitate the control of the merch. </p>
+                                    </p>
+                                    
+                                </div>
+                            <div class="back-container">
+                                <button class="btn" id="btn-demo-1">Demo</button>
+                                <button class="btn-github" id="btn-gh-1">Github</button>
+
+                                <div class="streamers">
+
+                                    <div class="streamer">
+
+                                        <div class="icon">
+                                            <img src="src/img/html.png" alt="html" id="html">
+                                        </div>
+
+                                        
+                                    </div>
+
+                                    <div class="streamer">
+                                            <div class="icon">
+                                                <img src="src/img/js.png" alt="js" id="js">
+                                            </div>
+
+                                            
+                                    </div>
+                                    
+                                        
+                                    <div class="streamer">
+                                            <div class="icon">
+                                                <img src="src/img/bootstrap.png" alt="boots" id="boots">
+                                            </div>
+
+                                        
+                                    </div>
+
+                                    <div class="streamer">
+                                        <div class="icon">
+                                            <img src="src/img/electron.png" alt="electron" id="electron">
+                                        </div>
+
+                                        
+                                    </div>
+
+                                    <div class="streamer">
+                                        <div class="icon">
+                                            <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                        </div>
+
+                                    
+                                    </div>
+                            
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                               
+                            </div>
+
+                            <div class="background">
+                                <svg class="wave" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.39 466.31"><defs><style>.cls-1{fill:rgba(255, 255, 255, 0.171)}</style></defs><path class="cls-1" d="M595.27,108.25l2.12,354.49L2.13,466.31,0,111.82S42.05,107.57,59.56,68C79.33,23.38,120.4,2,144.9,1.84,212.81,1.43,245.36,119.26,297.63,110c0,0,29.46,8.73,69.2-48.29S422.72.17,450.58,0C477.43-.16,531.7,57.45,541,75.47,552.45,97.81,595.27,108.25,595.27,108.25Z"/></svg>
+                                <img src="src/img/Projects/card-bg.jpg" alt="">
+                            </div>
+                    </div>
+
+                    <!-- Project 2  -->
+                    <div class="project">
+                        <div class="front">
+                            <img src="src/img/Projects/card-bg-2.png" alt="" class="thumbnail" alt="La esquina Glupis">
+
+                            <h3 class="name">Easy Stock</h3>
+                            <p class="app-description">Web app</p>
+
+                            <div class="stats">
+
+            
+                                <div class="streamers">
+                                    
+                                    <img src="src/img/html.png" alt="html" id="html">
+                                    <img src="src/img/js.png" alt="js" id="js">
+                                    <img src="src/img/bootstrap.png" alt="boots" id="boots">
+                                    <img src="src/img/node.png" alt="node" id="node">
+                                    <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="back">
+
+                            <div class="streaming-info">
+                                <p class="game-stat">
+                                    An app dedicated to the storage of an inventory in a database with user control and implemented on as a web. 
+                                    <p class="secondary">It helps to organice any food-commerce and has an auto-save function to facilitate the control of the merch.</p>
+                                </p>
+                                
+                            </div>
+                        <div class="back-container">
+                            <button class="btn" id="btn-demo-2">Demo</button>
+                            <button class="btn-github" id="btn-gh-2">Github</button>
+
+                            <div class="streamers">
+
+                                <div class="streamer">
+
+                                    <div class="icon">
+                                        <img src="src/img/html.png" alt="html" id="html">
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="streamer">
+                                        <div class="icon">
+                                            <img src="src/img/js.png" alt="js" id="js">
+                                        </div>
+
+                                        
+                                </div>
+                                
+                                    
+                                <div class="streamer">
+                                        <div class="icon">
+                                            <img src="src/img/bootstrap.png" alt="boots" id="boots">
+                                        </div>
+
+                                    
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/node.png" alt="node" id="node">
+                                    </div>
+
+                                    
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                    </div>
+
+                                
+                                </div>
+                        
+                        </div>
+                           
+                                
+                                
+                                
+                            </div>
+                        </div>
+
+                        <div class="background">
+                            <svg class="wave" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.39 466.31"><defs><style>.cls-1{fill:rgba(255, 255, 255, 0.171)}</style></defs><path class="cls-1" d="M595.27,108.25l2.12,354.49L2.13,466.31,0,111.82S42.05,107.57,59.56,68C79.33,23.38,120.4,2,144.9,1.84,212.81,1.43,245.36,119.26,297.63,110c0,0,29.46,8.73,69.2-48.29S422.72.17,450.58,0C477.43-.16,531.7,57.45,541,75.47,552.45,97.81,595.27,108.25,595.27,108.25Z"/></svg>
+                            <img src="src/img/Projects/card-bg-2.png" alt="">
+                        </div>
+                    </div> 
+
+                    <!-- Project 3    -->
+                    <div class="project">
+                        <div class="front">
+                            <img src="src/img/Projects/card-bg-3.png" alt="" class="thumbnail" alt="La esquina Glupis">
+
+                            <h3 class="name">Planeta Precios Bajos</h3>
+
+                            <p class="app-description">E-commerce</p>
+
+                            <div class="stats">
+
+                            
+
+                                <div class="streamers">
+                                    <img src="src/img/html.png" alt="html" id="html">
+                                    <img src="src/img/js.png" alt="js" id="js">
+                                    <img src="src/img/css.png" alt="css" id="css">
+                                    <img src="src/img/react.png" alt="react" id="react">
+                                    <img src="src/img/node.png" alt="node" id="node">
+                                    <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="back">
+
+                            <div class="streaming-info">
+                                <p class="game-stat">
+                                    An app dedicated to the storage of an inventory in a database. 
+                                    <p class="secondary">It helps to organice any food-commerce and has an auto-save function to facilitate the control of the merch. </p>
+                                </p>
+                            </div>
+
+                            <div class="back-container">
+                                <button class="btn" id="btn-demo-3">Demo</button>
+                                <button class="btn-github" id="btn-gh-3">Github</button>
+
+                            
+                           
+                            <div class="streamers">            
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/html.png" alt="html" id="html">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/css.png" alt="css" id="css">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/js.png" alt="js" id="js">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/react.png" alt="react" id="react">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/node.png" alt="node" id="node">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/mongo.png" alt="mongo" id="mongo">
+
+                                    </div>
+                                </div>
+                                  
+                            </div>                     
+                            </div>
+                                       
+                        </div>
+
+                        <div class="background">
+                            <svg class="wave" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.39 466.31"><defs><style>.cls-1{fill:rgba(255, 255, 255, 0.171)}</style></defs><path class="cls-1" d="M595.27,108.25l2.12,354.49L2.13,466.31,0,111.82S42.05,107.57,59.56,68C79.33,23.38,120.4,2,144.9,1.84,212.81,1.43,245.36,119.26,297.63,110c0,0,29.46,8.73,69.2-48.29S422.72.17,450.58,0C477.43-.16,531.7,57.45,541,75.47,552.45,97.81,595.27,108.25,595.27,108.25Z"/></svg>
+                            <img src="src/img/Projects/card-bg-3.png" alt="">
+                        </div>
+                    </div> 
+
+
+                    <!-- Project 4 -->
+                    <div class="project">
+                        <div class="front">
+                            <img src="src/img/Projects/card-bg-4.png" alt="" class="thumbnail" alt="La esquina Glupis">
+
+                            <h3 class="name">Notes frontend</h3>
+                            <p class="app-description">Web page</p>
+
+                            <div class="stats">
+
+                            
+
+                                <div class="streamers">
+                                    
+                                    
+                                    <img src="src/img/html.png" alt="html" id="html">
+                                    <img src="src/img/js.png" alt="js" id="js">
+                                    <img src="src/img/tailwind.png" alt="tail" id="tail">
+                                    <img src="src/img/react.png" alt="react" id="react">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="back">
+
+                            <div class="streaming-info">
+                                <p class="game-stat">
+                                    A frontend of a notes app. My first implementation of React. 
+                                    <p class="secondary">It posibilitates the creation of notes </p>
+                                </p>
+                                
+                            </div>
+                        
+                            <button class="btn" id="btn-demo-2">Demo</button>
+                            <button class="btn-github" id="btn-gh-2">Github</button>
+
+                            <div class="streamers">
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/html.png" alt="html" id="html">
+                                    </div> 
+                                </div>   
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/js.png" alt="js" id="js">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/tailwind.png" alt="tail" id="tail">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/react.png" alt="react" id="react">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="background">
+                            <svg class="wave" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.39 466.31"><defs><style>.cls-1{fill:rgba(255, 255, 255, 0.171)}</style></defs><path class="cls-1" d="M595.27,108.25l2.12,354.49L2.13,466.31,0,111.82S42.05,107.57,59.56,68C79.33,23.38,120.4,2,144.9,1.84,212.81,1.43,245.36,119.26,297.63,110c0,0,29.46,8.73,69.2-48.29S422.72.17,450.58,0C477.43-.16,531.7,57.45,541,75.47,552.45,97.81,595.27,108.25,595.27,108.25Z"/></svg>
+                            <img src="src/img/Projects/card-bg-4.png" alt="">
+                        </div>
+                    </div> 
+
+                    <!-- Project 5 -->
+                    <div class="project">
+                        
+                        <div class="front">
+                            <img src="src/img/Projects/card-bg-5.png" alt="" class="thumbnail" alt="La esquina Glupis">
+
+                            <h3 class="name">Get Jinxed!</h3>
+                            <p class="app-description">Web page</p>
+
+                            <div class="stats">
+
+                            
+
+                                <div class="streamers">
+                                    
+                                    <img src="src/img/html.png" alt="html" id="html">
+                                    <img src="src/img/css.png" alt="css" id="css">
+                                    <img src="src/img/js.png" alt="js" id="js">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="back">
+
+                            <div class="streaming-info">
+                                <p class="game-stat">
+                                    An image gallery of a fictional character. 
+                                    <p class="secondary">Testing my capabilities on css and js</p>
+                                </p>
+                                
+                            </div>
+
+                            <button class="btn" id="btn-demo-5">Demo</button>
+                            <button class="btn-github" id="btn-gh-5">Github</button>
+
+
+                            <div class="streamers">
+
+                                <div class="streamer">
+
+                                    <div class="icon">
+                                        <img src="src/img/html.png" alt="html" id="html">
+                                      
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/css.png" alt="css" id="css">
+                                    </div>
+                                </div>
+
+                                <div class="streamer">
+                                    <div class="icon">
+                                        <img src="src/img/js.png" alt="js" id="js">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="background">
+                            <svg class="wave" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.39 466.31"><defs><style>.cls-1{fill:rgba(255, 255, 255, 0.171)}</style></defs><path class="cls-1" d="M595.27,108.25l2.12,354.49L2.13,466.31,0,111.82S42.05,107.57,59.56,68C79.33,23.38,120.4,2,144.9,1.84,212.81,1.43,245.36,119.26,297.63,110c0,0,29.46,8.73,69.2-48.29S422.72.17,450.58,0C477.43-.16,531.7,57.45,541,75.47,552.45,97.81,595.27,108.25,595.27,108.25Z"/></svg>
+                            <img src="src/img/Projects/card-bg-5.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project">
+                        
+                                    <div class="front">
+                                        <img src="src/img/Projects/card-bg-6.png" alt="" class="thumbnail" alt="La esquina Glupis">
+                    
+                                        <h3 class="name">Literature Classroom</h3>
+                                        <p class="app-description">Web page</p>
+                    
+                                        <div class="stats">
+                    
+                                        
+                    
+                                            <div class="streamers">
+                                                
+                                                <img src="src/img/html.png" alt="html" id="html">
+                                                <img src="src/img/js.png" alt="js" id="js">
+                                                <img src="src/img/bootstrap.png" alt="boots" id="boots">
+                                                <img src="src/img/electron.png" alt="electron" id="electron">
+                                                <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                            </div>
+                    
+                                        </div>
+                                    </div>
+                    
+                                    <div class="back">
+                    
+                                        <div class="streaming-info">
+                                            <p class="game-stat">
+                                                An app dedicated to the storage of an inventory in a database. 
+                                                <p class="secondary">It helps to organice any food-commerce and has an auto-save function to facilitate the control of the merch. </p>
+                                            </p>
+                                            
+                                        </div>
+                    
+                                        <button class="btn" id="btn-demo-3">Demo</button>
+                                        <button class="btn-github" id="btn-gh-3">Github</button>
+        
+                    
+                                        <div class="streamers">
+                    
+                                            <div class="streamer">
+                    
+                                                <div class="icon">
+                                                    <img src="src/img/html.png" alt="html" id="html">
+                                                </div>
+                    
+                                                
+                                            </div>
+                    
+                                            <div class="streamer">
+                                                    <div class="icon">
+                                                        <img src="src/img/js.png" alt="js" id="js">
+                                                    </div>
+                    
+                                                    
+                                            </div>
+                                            
+                                                
+                                            <div class="streamer">
+                                                    <div class="icon">
+                                                        <img src="src/img/bootstrap.png" alt="boots" id="boots">
+                                                    </div>
+                    
+                                                
+                                            </div>
+                    
+                                            <div class="streamer">
+                                                <div class="icon">
+                                                    <img src="src/img/electron.png" alt="electron" id="electron">
+                                                </div>
+                    
+                                                
+                                            </div>
+                    
+                                            <div class="streamer">
+                                                <div class="icon">
+                                                    <img src="src/img/mongo.png" alt="mongo" id="mongo">
+                                                </div>
+                    
+                                            
+                                            </div>
+                                    
+                                            
+                                            
+                                            
+                                        </div>
+                                    </div>
+                    
+                                    <div class="background">
+                                        <svg class="wave" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.39 466.31"><defs><style>.cls-1{fill:rgba(255, 255, 255, 0.171)}</style></defs><path class="cls-1" d="M595.27,108.25l2.12,354.49L2.13,466.31,0,111.82S42.05,107.57,59.56,68C79.33,23.38,120.4,2,144.9,1.84,212.81,1.43,245.36,119.26,297.63,110c0,0,29.46,8.73,69.2-48.29S422.72.17,450.58,0C477.43-.16,531.7,57.45,541,75.47,552.45,97.81,595.27,108.25,595.27,108.25Z"/></svg>
+                                        <img src="src/img/Projects/card-bg.jpg" alt="">
+                                    </div>
+                    </div>
+                    
+                    
+           </div>
+            
+           
+        </div>   
+     
+    
+
+    </section>
+       
+   
+
+
+
+   
+   
+
+    <section>
+        <div class="container reveal">
+            <h2>
+                A literature professor that find his deal in the programming world
+            </h2>
+            <div class="cards">
+                <div class="text-card">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quaerat saepe asperiores officiis odio esse alias, corporis dolorem, modi autem laborum amet sed a fuga nam possimus ex hic ipsa!</p>
+                    </div>
+                     <div class="text-card">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quaerat saepe asperiores officiis odio esse alias, corporis dolorem, modi autem laborum amet sed a fuga nam possimus ex hic ipsa!</p>
+                </div>
+                     <div class="text-card">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quaerat saepe asperiores officiis odio esse alias, corporis dolorem, modi autem laborum amet sed a fuga nam possimus ex hic ipsa!</p> 
+                </div>
+       
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+  <script src="js\scroll&modal.js"></script>
+  <script src="js\redirect.js"></script>
+</body>
+</html>
