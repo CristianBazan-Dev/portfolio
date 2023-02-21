@@ -41,8 +41,9 @@ redirectButtons(button3, "https://drive.google.com/file/d/1PH27SOFZZ-A1QPnEqCpxE
 
 redirectButtons(button4, "https://drive.google.com/file/d/1VE4LZWLKughIHIlb1PvEURODNmIDTE6S/view?usp=share_link", buttongh4, "https://github.com/CristianBazan-dev/Notes-app"); 
 
-redirectButtons(button5, "https://drive.google.com/file/d/1T_NRszhr2JBz_ukdznx5c8IYaFTFB9bS/view?usp=share_link", buttongh5, ""); 
-redirectButtons(button6, "https://drive.google.com/file/d/1CI7NcSBdOLtlsyoZw0vlUN0NKCRUzFxI/view?usp=share_link", buttongh6, ""); 
+redirectButtons(button5, "https://cristianbazan-dev.github.io/GetJinxed/", buttongh5, ""); 
+
+redirectButtons(button6, "https://cristianbazan-dev.github.io/Classroom5toNaturales/", buttongh6, ""); 
 
 
-// alert("This portfolio it's on building. That's why some objects can be missed and the design for the mobile devices could be incomplete. I suggest to see it on a PC and complemented with the CV. I'm going to finish it through out this week. Thanks for your understanding, consideration and attention.")
+alert("This portfolio it's on building. That's why some objects can be missed and the design for the mobile devices could be incomplete. I suggest to see it on a PC and complemented with the CV. I'm going to finish it through out this week. Thanks for your understanding, consideration and attention.")
