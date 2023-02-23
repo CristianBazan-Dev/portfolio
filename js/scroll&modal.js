@@ -184,7 +184,7 @@ const renderInfo = (id, name) => {
   const element = id;
 
   for (i = 0; i < element.length; i++) {
-    console.log(element[i]);
+  
     element[i].addEventListener("click", () => {
       modalContainer.classList.toggle("active");
       modal.classList.toggle("active");

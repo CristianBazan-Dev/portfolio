@@ -322,14 +322,30 @@ section:nth-child(5){
     top:  10em; 
     color: var(--dark);
     
+    
 }
 
 section:nth-child(6){
-    color: var(--dark);
+    position: relative; 
+    background-image: url('./src/img/win98.png');
+    background-size: cover;     
+}
+
+section:nth-child(7){
+    color: var(--clr-light);
     background: var(--dark);
     position: relative; 
-     
+    z-index: 0;
 }
+
+section:nth-child(8){
+    color: var(--main);
+    background: var(--clr-light);
+    position: relative; 
+    z-index: 0;
+}
+
+
 
 
 section .container{
@@ -941,3 +957,96 @@ Modal rendering */
     background: var(--darklght);
     cursor: pointer;
 } */
+
+
+/* About me   */
+
+#aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ .transparence{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    background-color: #00000073;
+    z-index: 1;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.about-title{
+    font-family: 'Oswald', sans-serif;
+    z-index: 3; 
+    letter-spacing: 3px;
+    position: relative;
+    top: 10px;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.about-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3em;
+    margin: auto;
+    color: var(--clr-light);
+   
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.quote-remark{
+    margin: auto;
+    padding: 2em;
+    
+
+   
+}
+
+.quote-remark p{
+    color: var(--dark);
+    padding-top: 1em; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    background: var(--clr-light);
+}
+
+
+.broom-flight img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    transform: scale(.8);
+    
+}
+
+.broom-flight:hover{
+    animation: flying 2s ease-in-out;
+}
+
+@keyframes flying{
+    from{
+        transform: scale(1) translateX(0px) translateY(0px); 
+    }
+    to{
+        transform: scale(3) rotate(50deg) translateX(-800px) translateY(600px); 
+    }
+
+   
+}
