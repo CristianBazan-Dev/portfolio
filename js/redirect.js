@@ -46,4 +46,16 @@ redirectButtons(button5, "https://cristianbazan-dev.github.io/GetJinxed/", butto
 redirectButtons(button6, "https://cristianbazan-dev.github.io/Classroom5toNaturales/", buttongh6, ""); 
 
 
-alert("This portfolio it's on building. That's why some objects can be missed and the design for the mobile devices could be incomplete. I suggest to see it on a PC and complemented with the CV. I'm going to finish it through out this week. Thanks for your understanding, consideration and attention.")
+
+
+// alert("This portfolio it's on building. That's why some objects can be missed and the design for the mobile devices could be incomplete. I suggest to see it on a PC and complemented with the CV. I'm going to finish it through out this week. Thanks for your understanding, consideration and attention.")
+
+
+// Email sending 
+
+const mail = document.getElementById('mail');
+
+mail.addEventListener('click', ()=>{
+  window.location.href = "mailto:cristianbazandev@gmail.com?subject=I%20want%20to%20bring%20my%20project%20to%20life!&body=message%20goes%20here";
+
+})

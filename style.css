@@ -1050,3 +1050,37 @@ Modal rendering */
 
    
 }
+
+
+/* Contact  */
+
+.icons-container{
+  
+}
+
+.icons-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons-contact img{
+    width: 50px;
+    display: flex;
+}
+
+.icons-contact div{
+    display: flex;
+    align-items: center;
+}
+
+.icons-contact div:hover{
+    transform: scale(1.1);
+    transition: transform 500ms; 
+}
+
+.icons-contact a{
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}
