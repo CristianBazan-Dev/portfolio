@@ -1084,3 +1084,14 @@ Modal rendering */
     list-style: none;
     text-decoration: none;
 }
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
