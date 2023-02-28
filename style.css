@@ -254,7 +254,7 @@ section:nth-child(5) {
 
 section:nth-child(6) {
   position: relative;
-  background-image: url("./src/img/win98.png");
+  background-image: url("https://res.cloudinary.com/dhbvri4ni/image/upload/v1677508103/portfolio/img/win98_fwf06r.png");
   background-size: cover;
 }
 
