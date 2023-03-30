@@ -910,6 +910,7 @@ footer {
 /* Responsive */
 
 @media (max-width: 900px) {
+
   header {
     justify-content: center;
     align-items: center;
@@ -1074,4 +1075,45 @@ footer {
   .modal-skills.active {
     animation: slide 1s ease-in-out;
   }
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -2em ;
+  }
+  
+
+  .transparence{
+    width: 100%;
+    height: 330px;
+  }
+
+  .about-title{
+    font-size: 2em;
+  }
+
+  .about-text p{
+    text-align: center;
+    font-size: .8em;
+    margin: 2em 0;
+  }
+
+  #contact h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 2em;
+  }
+
+  .icons-contact {
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    flex-direction: column;
+   font-size: .7em;
+  }
+  
 }
