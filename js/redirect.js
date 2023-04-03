@@ -2,7 +2,7 @@ const button = document.getElementById("resumeButton");
 
 button.addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/file/d/1bdW1QMrlfvrakZ4P2VqP29FBVexGGrLH/view?usp=share_link"
+    "https://drive.google.com/file/d/1vTmuyrzhSn9FL98VQdwoHlFg5LVPupvd/view?usp=share_link"
   );
 });
 
@@ -44,11 +44,6 @@ redirectButtons(button4, "https://drive.google.com/file/d/1VE4LZWLKughIHIlb1PvEU
 redirectButtons(button5, "https://cristianbazan-dev.github.io/GetJinxed/", buttongh5, ""); 
 
 redirectButtons(button6, "https://cristianbazan-dev.github.io/Classroom5toNaturales/", buttongh6, ""); 
-
-
-
-
-// alert("This portfolio it's on building. That's why some objects can be missed and the design for the mobile devices could be incomplete. I suggest to see it on a PC and complemented with the CV. I'm going to finish it through out this week. Thanks for your understanding, consideration and attention.")  
 
 
 // Email sending 
