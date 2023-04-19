@@ -2,7 +2,7 @@ const button = document.getElementById("resumeButton");
 
 button.addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/file/d/1vTmuyrzhSn9FL98VQdwoHlFg5LVPupvd/view?usp=share_link"
+    "https://docs.google.com/document/d/15WK4EAhBhaNCftVeuAAT8dwKXOLxtf5u/edit?usp=share_link&ouid=117474804519959038343&rtpof=true&sd=true"
   );
 });
 
