@@ -37,7 +37,7 @@ redirectButtons(button1,"https://drive.google.com/file/d/1VOZ9I-Nn15rM9-uZdSbEF3
 
 redirectButtons(button2, "https://drive.google.com/file/d/1NSSAU8esZt68oSmbUoZ6Hu9SuZVgGg_x/view?usp=share_link", buttongh2, "https://github.com/CristianBazan-dev/EasyStock" )
 
-redirectButtons(button3, "https://drive.google.com/file/d/1PH27SOFZZ-A1QPnEqCpxErFNb6jC-NC3/view?usp=share_link", buttongh3, "https://github.com/CristianBazan-dev/planeta-precios-bajos-e-commerce")
+redirectButtons(button3, "https://www.planetapreciosbajos.com/", buttongh3, "https://github.com/CristianBazan-dev/planeta-precios-bajos-e-commerce")
 
 redirectButtons(button4, "https://drive.google.com/file/d/1VE4LZWLKughIHIlb1PvEURODNmIDTE6S/view?usp=share_link", buttongh4, "https://github.com/CristianBazan-dev/Notes-app"); 
 

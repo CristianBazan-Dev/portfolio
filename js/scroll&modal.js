@@ -246,3 +246,12 @@ renderInfo(github, "github");
 
 
 // See more 
+
+// let counter = 1; 
+// setInterval(function() {
+//     document.getElementById('radio' + counter).checked = true; 
+//     counter++; 
+//     if(counter >= 20) {
+//         counter = 1; 
+//     }
+// }, 1000)
