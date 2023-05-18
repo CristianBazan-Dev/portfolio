@@ -1024,13 +1024,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: auto;
   }
 
   .icons-container img {
-    max-width: 100px;
-    max-height: 100px;
-    margin: 2em;
+    max-width: 50px;
+    max-height: 50px;
     cursor: pointer;
+    margin: 5em;
+    margin-bottom: -2em;
+  
   }
 
   .icons-container img:hover {
@@ -1075,8 +1078,7 @@ footer {
     position: fixed;
     top: 50;
     left: 50;
-    width: 500px;
-    height: 300px;
+
     background: var(--main);
     border: var(--third) 2px solid;
     border-radius: 10px;
@@ -1086,13 +1088,16 @@ footer {
 
   .modal-skills img {
     margin-bottom: 10px;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 50px;
+    max-height: 50px;
   }
 
   .icon-definition {
     text-align: justify;
-    margin: 1em;
+    font-size: .5rem;
+    margin: 5em;
+    text-align: center;
+    padding: 50px 50px;
   }
 
   .modal-skills-container.active {
@@ -1103,6 +1108,10 @@ footer {
 
   .modal-skills.active {
     animation: slide 1s ease-in-out;
+  }
+
+  .modal-skills .close-icon{
+    z-index: 3;
   }
 
   .projects-container {
