@@ -19,6 +19,7 @@ function reveal() {
   }
 }
 
+
 // modal
 const modalContainer = document.getElementById("modal-skills-container");
 const modal = document.getElementById("modal-skills");
