@@ -993,7 +993,7 @@ footer {
     align-items: center;
     position: fixed;
     bottom: 2em;
-    z-index: 10;
+    z-index: 120;
   }
 
   .nav-responsive ul {
