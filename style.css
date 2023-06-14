@@ -26,8 +26,8 @@
   --title-h1-font-s: 1.5em;
 
   --shadowStandard: rgba(0, 0, 0, 0.25) 10px 64px 65px,
-  rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* Scrollbar */
@@ -72,7 +72,7 @@ a {
 }
 
 /* Whatsapp  */
-.whatsapp img{
+.whatsapp img {
   max-width: 80px;
   position: fixed;
   bottom: 3em;
@@ -118,7 +118,7 @@ nav ul {
   margin-right: 10em;
 }
 
-.nav-responsive{
+.nav-responsive {
   display: none;
 }
 
@@ -193,12 +193,11 @@ Elements of the web */
 
 #visual {
   position: absolute;
-  
+
   bottom: 12em;
   width: 100%;
   z-index: -1;
 }
-
 
 /* .wave1 {
   animation: wave 8s infinite alternate ease-in;
@@ -641,14 +640,6 @@ span {
   color: var(--third);
 }
 
-
-
-
-
-
-
-
-
 .slide img:hover {
   filter: brightness(1.3);
   transform: scale(1.1);
@@ -950,21 +941,25 @@ footer {
   align-items: center;
   flex-direction: column;
   margin: auto;
- 
+}
+
+.icons-container-responsive {
+  display: none;
 }
 
 /* Responsive */
 
 @media (max-width: 900px) {
-  html, body{
+  html,
+  body {
     overflow-x: hidden;
   }
 
-  .whatsapp{
+  .whatsapp {
     display: none;
   }
 
-  .whatsapp.responsive{
+  .whatsapp.responsive {
     display: block;
   }
 
@@ -984,7 +979,7 @@ footer {
     text-align: center;
   }
 
-  .common-nav{
+  .common-nav {
     display: none;
   }
 
@@ -992,7 +987,7 @@ footer {
     font-size: 0.5em;
   }
 
-  .nav-responsive{
+  .nav-responsive {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1001,19 +996,19 @@ footer {
     z-index: 10;
   }
 
-  .nav-responsive ul{
+  .nav-responsive ul {
     background: var(--mainLowOp);
     color: var(--clr-light);
     border-radius: 10px;
     width: 100%;
     margin: auto;
-    display: flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
     /* box-shadow: var(--shadowStandard);  */
   }
 
-  .nav-responsive ul::after{
+  .nav-responsive ul::after {
     /* content: "";
     position: absolute;
     background: var(--clr-light);
@@ -1021,10 +1016,9 @@ footer {
     width: 50px;
     height: 110%;
     clip-path: circle(); */
-
   }
 
-  .nav-responsive ul li a{
+  .nav-responsive ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1087,24 +1081,59 @@ footer {
   }
 
   /* Skills */
-  .skills-title-container {
+  section:nth-child(4){
+    background-color: var(--main);
+    z-index: 10;
+    min-height: 2vh;
   }
 
-  .icons-container {
+  section:nth-child(5){
+    background-color: var(--clr-light);
+    z-index: 10;
+    min-height: 2vh;
+    margin-top: -30em;
+  }
+
+  .skills-title-container{
+    display: none;
+  }
+
+  .icons-responsive{
+    width: 60%;
+    height: 100px;
+    overflow-x: hidden;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    background-color: var(--main);
+    margin-top: -8em;
   }
 
-  .icons-container img {
+
+  .icons-container-responsive {
+    display: flex;
+    animation: translateIcons 60s infinite;
+  }
+
+  .icons-container-responsive img {
     max-width: 50px;
     max-height: 50px;
     cursor: pointer;
-    margin: 5em;
+    margin: 1em;
     margin-bottom: -2em;
-  
+
+  }
+
+  @keyframes translateIcons{
+    from{
+      transform: translateX(-10%);
+    }
+    to{
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .icons-container {
+    display: none;
   }
 
   .icons-container img:hover {
@@ -1165,7 +1194,7 @@ footer {
 
   .icon-definition {
     text-align: justify;
-    font-size: .5rem;
+    font-size: 0.5rem;
     margin: 5em;
     text-align: center;
     padding: 50px 50px;
@@ -1181,7 +1210,7 @@ footer {
     animation: slide 1s ease-in-out;
   }
 
-  .modal-skills .close-icon{
+  .modal-skills .close-icon {
     z-index: 3;
   }
 
@@ -1197,8 +1226,6 @@ footer {
     width: 100%;
     height: 330px;
   }
-
-
 
   .about-title {
     font-size: 2em;
